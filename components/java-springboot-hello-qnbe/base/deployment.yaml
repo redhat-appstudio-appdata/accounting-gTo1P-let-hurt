@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: java-springboot-hello-qnbe
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:gTo1P-java-springboot-hello-qnbe
+      - image: quay.io/redhat-appstudio/user-workload@sha256:dea779a5125160e2be74011031cc9d4825536f4023bd22c33a3749c67c7cfcb0
         name: my-java-springboot
         ports:
         - containerPort: 8081

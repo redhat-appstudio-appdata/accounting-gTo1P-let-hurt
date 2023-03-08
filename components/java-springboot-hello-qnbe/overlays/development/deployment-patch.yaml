@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:d001fbb9bc8dd7a93fda8a3e813c56fd0537cd4c3107d54310f23796e4c966ca
+      - image: quay.io/redhat-appstudio/user-workload@sha256:1fb2ba356e04ff2a6f7d96045a50dca8e39e02459fda2735448eca782ffd5645
         name: my-java-springboot
         resources: {}
 status: {}
